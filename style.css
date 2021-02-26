@@ -1,14 +1,24 @@
+@font-face{
+    font-family : myfont;
+    src : url('https://fonts.googleapis.com/css2?family=Jua&display=swap');
+}
+
 title {
-    color : red;
+    color : white;
+    text-align : center;
+    font-family : myfont;
   }
 body {
-    background-image: url("https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=http%3A%2F%2Fcfile10.uf.tistory.com%2Fimage%2F24E61F335966F29A15AD3E");
-    background-attachment: fixed;
+    font-family : myfont;
+    background-image : url("https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=http%3A%2F%2Fcfile10.uf.tistory.com%2Fimage%2F24E61F335966F29A15AD3E");
+    background-repeat : no-repeat; 
+    background-attachment : fixed;
+    color : white;
 }
 h1 {
-    font-size: 45px;
+    font-size : 45px;
     color : blue;
-    text-align: center;
+    text-align : center;
   }
 #active{
     color : red;
@@ -16,3 +26,30 @@ h1 {
 a {
     color : black
   }
+.dropdown-button {
+    background-color: #FFDAB9;
+    padding: 8px;
+    font-size: 15px;
+    border: none;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #FFDAB9;
+    min-width: 75px;
+    padding: 5px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+.dropdown-content a {
+    color: black;
+    padding: 8px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-content a:hover { background-color: #CD853F; }
+.dropdown:hover .dropdown-content { display: block; }
+.dropdown:hover .dropdown-button { background-color: #CD853F; }
