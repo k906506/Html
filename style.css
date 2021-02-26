@@ -10,9 +10,9 @@ title {
   }
 body {
     font-family : myfont;
+    background-color : black;
     background-repeat : no-repeat; 
     background-attachment : fixed;
-    color : black;
     text-align : center;
 }
 h1 {
@@ -20,7 +20,7 @@ h1 {
     color : #FFDAB9;
     text-align : center;
   }
-#active{
+#active {
     color : #FFDAB9;
   }
 a {
