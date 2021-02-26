@@ -1,6 +1,10 @@
-title{
+title {
     color : red;
   }
+body {
+    background-image: url("https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=http%3A%2F%2Fcfile10.uf.tistory.com%2Fimage%2F24E61F335966F29A15AD3E");
+    background-attachment: fixed;
+}
 h1 {
     font-size: 45px;
     color : blue;
