@@ -1,0 +1,14 @@
+title{
+    color : red;
+  }
+h1 {
+    font-size: 45px;
+    color : blue;
+    text-align: center;
+  }
+#active{
+    color : red;
+  }
+a {
+    color : black
+  }
